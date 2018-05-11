@@ -14,6 +14,7 @@ cache:
     - tests/elm-stuff/packages        # cache files that haven't changed
     - sysconfcpus
     - $HOME/.npm # https://stackoverflow.com/a/42523517/1148249
+    - node_modules
 
 before_install:
   - uname -a # print the *exact* operating system/kernel version
